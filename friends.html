@@ -11,6 +11,8 @@
 
       <title>Friends | Kakao Clone</title>
    </head>
+
+   <!-- Status-Bar -->
    <body>
       <div class="status-bar">
          <div class="status-bar__column">
@@ -23,6 +25,7 @@
          <span class="status-bar__battery-level">100%</span>
          <i class="fas fa-battery-full"></i>
       </div>
+
       <!-- Screen Title -->
       <header>
          <div class="header__header-column">
@@ -39,12 +42,17 @@
             </span>
          </div>
       </header>
+
       <!-- Main Part -->
       <main class="friends">
+         <!-- MyProfile -->
          <header class="friends__header">
-            <div class="friends__friend" friend friend--lg>
+            <div class="friends__friend friend friend--lg">
                <div class="friend__column">
-                  <img src="images/avatar.jpg" class="g-avatar__friend" />
+                  <img
+                     src="images/avatar.jpg"
+                     class="g-avatar friend__avatar"
+                  />
                   <div class="friend__content">
                      <span class="friend__name">
                         Geralt
@@ -56,6 +64,8 @@
                </div>
             </div>
          </header>
+
+         <!-- PlusFriend -->
          <div class="friends__plus">
             <h5 class="class_friends__title">Plus Friend</h5>
             <div class="friends__friend" friend friend>
@@ -69,6 +79,8 @@
                </div>
             </div>
          </div>
+
+         <!-- FriendsList -->
          <ul class="friends__list">
             <h5 class="friends-title">Friends 14</h5>
             <li class="friends__friend" friend friend>
@@ -92,6 +104,7 @@
             </li>
          </ul>
       </main>
+
       <!-- Navigation -->
       <nav class="nav">
          <ul class="nav__list">
