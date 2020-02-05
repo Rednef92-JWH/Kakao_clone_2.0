@@ -9,15 +9,66 @@
          crossorigin="anonymous"
       ></script>
 
-      <title>Chats | Kakao Clone</title>
+      <title>Settings | Kakao Clone</title>
    </head>
    <body>
+      <!-- Status-bar -->
       <div class="status-bar">
          <div class="status-bar__column">
             <span class="status-bar__clock">13:53</span>
          </div>
          <div class="status-bar__column"></div>
          <i class="fas fa-clock"></i>
+         <i class="fas fa-volume-mute"></i>
+         <i class="fas fa-wifi"></i>
+         <span class="status-bar__battery-level">100%</span>
+         <i class="fas fa-battery-full"></i>
       </div>
+
+      <!-- Screen Title -->
+      <header>
+         <div class="header__icon-back">
+            <a href="javascript:history.back();" class="header__back-btn">
+               <i class="fas fa-arrow-left fa-2x"></i>
+            </a>
+         </div>
+         <div class="header__header-column">
+            <h1 class="header__title">Settings</h1>
+         </div>
+
+         <div class="header__header-column">
+            <span class="header__icon-search">
+               <i class="fas fa-search"> </i>
+            </span>
+         </div>
+      </header>
+
+      <!-- Main Part -->
+      <main class="settings">
+         <section class="settings__section">
+            <ul class="settings__list">
+               <li class="settings__setting">
+                  <span class="settings__icon">
+                     <i class="fas fa-lock"></i>
+                  </span>
+                  <span class="settings__title">Privacy </span>
+               </li>
+
+               <li class="settings__setting">
+                  <span class="settings__icon">
+                     <i class="far fa-bell"></i>
+                  </span>
+                  <span class="settings__title"> Notifications</span>
+               </li>
+
+               <li class="settings__setting">
+                  <span class="settings__icon">
+                     <i class="far fa-user"></i>
+                  </span>
+                  <span class="settings__title"> Friends</span>
+               </li>
+            </ul>
+         </section>
+      </main>
    </body>
 </html>

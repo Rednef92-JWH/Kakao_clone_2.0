@@ -12,6 +12,7 @@
       <title>Chats | Kakao Clone</title>
    </head>
    <body>
+      <!-- Status-bar -->
       <div class="status-bar">
          <div class="status-bar__column">
             <span class="status-bar__clock">13:53</span>
@@ -39,29 +40,33 @@
             </span>
 
             <span class="header__icon__cog">
-               <i class="fas fa-cog"></i>
+               <a href="settings.html">
+                  <i class="fas fa-cog"></i>
+               </a>
             </span>
          </div>
       </header>
       <!-- Main Part -->
       <main class="chats">
          <ul class="chats__list">
-            <li class="chats__chat" chat>
-               <div class="chat__column">
-                  <image class="chat__g-avatar" src="images/avatar.jpg">
-                  </image>
-                  <div class="chat__content">
-                     <span class="chat__userName">
-                        Lynn
-                     </span>
-                     <span class="chat__preview">
-                        Going Home
-                     </span>
+            <li class="chats__chat chat">
+               <a href="chat.html">
+                  <div class="chat__column">
+                     <image class="chat__g-avatar" src="images/avatar.jpg">
+                     </image>
+                     <div class="chat__content">
+                        <span class="chat__userName">
+                           Lynn
+                        </span>
+                        <span class="chat__preview">
+                           Going Home
+                        </span>
+                     </div>
                   </div>
-               </div>
-               <div class="chat__column">
-                  <span class="chat__timestamp"> Yesterday</span>
-               </div>
+                  <div class="chat__column">
+                     <span class="chat__timestamp"> Yesterday</span>
+                  </div>
+               </a>
             </li>
          </ul>
       </main>
