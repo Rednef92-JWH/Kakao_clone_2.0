@@ -1,0 +1,30 @@
+.header {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 27px;
+}
+
+.header .header__left-interface {
+   display: flex;
+}
+
+/* For Settings Header */
+.header .header__header-columnForSettings {
+   margin-left: 15px;
+}
+
+.header .header__title {
+   font-size: 26px;
+   font-weight: 700;
+}
+
+.header .header__icon {
+   font-size: 24px;
+   margin-left: 20px;
+   cursor: pointer;
+}
+
+.header .header__back-btn {
+   font-size: 21px;
+   margin-top: 3px;
+}
