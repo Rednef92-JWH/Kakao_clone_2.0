@@ -6,9 +6,42 @@
 
 .friend .friend__avatar {
    width: 50px;
-   border-radius: 35%;
+   border-radius: 38%;
 }
 
-.friend .friend__avatar__more {
+.friend .g-avatar.friend__avatar {
    width: 70px;
+}
+
+.friend .m-avatar.friend__avatar {
+   width: 60px;
+}
+
+.friend .friend__column {
+   display: flex;
+   align-items: center;
+}
+
+.friend .friend__avatar {
+   margin-right: 15px;
+}
+
+.friend__content .friend__name {
+   display: block;
+   margin-bottom: 5px;
+   font-size: 20px;
+}
+
+.friend__content .friend__bottom-text {
+   opacity: 0.5;
+   font-size: 14px;
+}
+.friend__content .friend__status {
+   opacity: 0.5;
+   font-size: 12px;
+}
+
+.friend__column .chat__timestamp {
+   font-size: 12px;
+   opacity: 0.5;
 }
