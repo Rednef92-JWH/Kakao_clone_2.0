@@ -1,0 +1,66 @@
+.more .more__btn-list {
+   margin-top: 30px;
+   margin-bottom: 15px;
+   margin-left: 15px;
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+}
+
+.friend__column .friend__messeage-myself {
+   font-size: 13px;
+   opacity: 0.6;
+   cursor: pointer;
+}
+
+.more__btn-list .more__btn {
+   margin-right: 50px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   opacity: 0.7;
+}
+
+.more__btn .more__btn-icon {
+   margin-bottom: 5px;
+   font-size: 13px;
+}
+
+.more .more__suggestions {
+   border-top: #f7f7f7 1px solid;
+   padding-top: 20px;
+}
+
+.more__suggestions .more__title {
+   font-size: 18px;
+}
+
+.more .more__suggestions-list {
+   margin-top: 15px;
+   margin-left: 13px;
+   display: flex;
+   align-items: center;
+}
+
+.more__suggestions-list .more__suggestion {
+   margin-right: 30px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   cursor: pointer;
+}
+
+.more__suggestion .suggestion__icon {
+   margin-bottom: 8px;
+   font-size: 12px;
+   background-color: #fae300;
+   color: #4e4e4e;
+   padding: 8px;
+   border-radius: 5px;
+}
+
+.more__suggestion .suggestion__title {
+   font-size: 14px;
+   padding-bottom: 15px;
+   opacity: 0.5;
+}
