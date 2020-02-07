@@ -1,7 +1,7 @@
 .header {
    display: flex;
    justify-content: space-between;
-   margin-bottom: 24px;
+   margin-bottom: 25px;
 }
 
 .header .header__left-interface {
