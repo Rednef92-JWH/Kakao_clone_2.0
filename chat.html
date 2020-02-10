@@ -39,10 +39,14 @@
 
          <div class="header__header-column-forChat">
             <span class="header__icon">
-               <i class="fas fa-search"> </i>
+               <a href="find.html">
+                  <i class="fas fa-search"> </i>
+               </a>
             </span>
             <div class="header__icon">
-               <i class="fas fa-bars"></i>
+               <a href="more.html">
+                  <i class="fas fa-bars"></i>
+               </a>
             </div>
          </div>
       </header>
@@ -56,7 +60,7 @@
             <li class="incoming-message message">
                <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
                <div class="message__content">
-                  <span class="message__author">Ciri</span>
+                  <div class="message__author">Ciri</div>
                   <div class="message__bubble">
                      Congrats! We will meet soon.
                   </div>
@@ -64,11 +68,11 @@
                <span class="message__timestamp"></span>
             </li>
 
-            <li class="incoming-message message">
+            <li class="sent-message message">
                <div class="message__content">
-                  <span class="message__timestamp"></span>
+                  <div class="message__timestamp"></div>
                   <div class="message__bubble">
-                     Good to hear :)
+                     Good to heard :)
                   </div>
                </div>
             </li>
@@ -77,7 +81,7 @@
 
       <!-- Interface to Write -->
       <div class="chat__write">
-         <div class="chat__write-column">
+         <div class="chat__write-column_plus">
             <i class="far fa-plus-square"></i>
          </div>
          <div class="chat__write-column">
@@ -87,13 +91,8 @@
                class="chat__write-input"
             />
          </div>
-         <div class="chat__write-column">
-            <span class="chat__write-icon">
-               <i class="far fa-smile-wink"></i>
-            </span>
-            <span class="chat__write-icon">
-               <i class="fas fa-microphone"></i>
-            </span>
+         <div class="chat__write-column_smile">
+            <i class="far fa-smile-wink"></i>
          </div>
       </div>
    </body>
