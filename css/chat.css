@@ -87,7 +87,8 @@
    background-color: white;
    position: fixed;
    bottom: 0px;
-   width: 92%;
+   left: 0;
+   width: 100%;
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -97,27 +98,44 @@
    border: #f7f7f7 2px solid;
 }
 
+.chat__write .chat__write-input {
+   border-radius: 9px;
+   position: absolute;
+   left: 36px;
+   bottom: 12px;
+   height: 33px;
+   width: 88%;
+   opacity: 0.9;
+   color: #020202;
+   outline: none;
+}
+
 .chat__write-column_plus i {
    margin-left: 5px;
    font-size: 27px;
    color: #020202;
-   opacity: 0.5;
+   opacity: 0.9;
 }
 
 .chat__write-column_smile i {
-   margin-right: 15px;
+   padding-right: 15px;
    font-size: 23px;
    color: #020202;
-   opacity: 0.5;
+   opacity: 0.9;
 }
 
-.chat__write-column input {
-   border-radius: 9px;
-   position: absolute;
-   left: 34px;
-   bottom: 13px;
-   height: 33px;
-   width: 88%;
-   opacity: 0.5;
-   color: #020202;
+.chat__write-input:focus ~ .chat__write-input {
+   animation: highlightAnim 3s infinite ease-in-out;
+}
+
+@keyframes highlightAnim {
+   0% {
+      opacity: 0.1;
+   }
+   50% {
+      opacity: 0.9;
+   }
+   100% {
+      opacity: 0.1;
+   }
 }
