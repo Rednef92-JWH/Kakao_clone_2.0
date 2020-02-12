@@ -1,5 +1,15 @@
+.header-wrapper {
+   position: fixed;
+   background-color: white;
+   border-bottom: #f7f7f7 1px solid;
+   padding-top: 10px;
+   top: 0px;
+   width: 93%;
+}
+
 .chat {
-   border-top: #f7f7f7 1px solid;
+   padding-top: 100px;
+   min-height: 200vh;
 }
 
 .chat__messages {
@@ -13,6 +23,7 @@
 .chat__messages .chat__timestamp {
    font-size: 13px;
    border: #020202 1px solid;
+   color: #4e4e4e;
    margin-bottom: 20px;
    background-color: white;
    border-radius: 9px;

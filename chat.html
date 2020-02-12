@@ -11,45 +11,48 @@
       <link rel="stylesheet" href="css/styles.css" />
       <title>Chat | Kakao Clone</title>
    </head>
+
    <body>
-      <!-- Status-bar -->
-      <div class="status-bar">
-         <div class="status-bar__column">
-            <span class="status-bar__clock">13:53</span>
+      <div class="header-wrapper">
+         <!-- Status-bar -->
+         <div class="status-bar">
+            <div class="status-bar__column">
+               <span class="status-bar__clock">13:53</span>
+            </div>
+            <div class="status-bar__column">
+               <i class="fas fa-clock"></i>
+               <i class="fas fa-volume-mute"></i>
+               <i class="fas fa-wifi"></i>
+               <span class="status-bar__battery-level">100%</span>
+               <i class="fas fa-battery-full"></i>
+            </div>
          </div>
-         <div class="status-bar__column">
-            <i class="fas fa-clock"></i>
-            <i class="fas fa-volume-mute"></i>
-            <i class="fas fa-wifi"></i>
-            <span class="status-bar__battery-level">100%</span>
-            <i class="fas fa-battery-full"></i>
-         </div>
+
+         <!-- Screen Title -->
+         <header class="header">
+            <div class="header__left-interface">
+               <a href="javascript:history.back();" class="header__back-btn">
+                  <i class="fas fa-arrow-left"></i>
+               </a>
+               <div class="header__header-columnForSettings">
+                  <h1 class="header__title">Ciri</h1>
+               </div>
+            </div>
+
+            <div class="header__header-column-forChat">
+               <span class="header__icon">
+                  <a href="find.html">
+                     <i class="fas fa-search"> </i>
+                  </a>
+               </span>
+               <div class="header__icon">
+                  <a href="more.html">
+                     <i class="fas fa-bars"></i>
+                  </a>
+               </div>
+            </div>
+         </header>
       </div>
-
-      <!-- Screen Title -->
-      <header class="header">
-         <div class="header__left-interface">
-            <a href="javascript:history.back();" class="header__back-btn">
-               <i class="fas fa-arrow-left"></i>
-            </a>
-            <div class="header__header-columnForSettings">
-               <h1 class="header__title">Ciri</h1>
-            </div>
-         </div>
-
-         <div class="header__header-column-forChat">
-            <span class="header__icon">
-               <a href="find.html">
-                  <i class="fas fa-search"> </i>
-               </a>
-            </span>
-            <div class="header__icon">
-               <a href="more.html">
-                  <i class="fas fa-bars"></i>
-               </a>
-            </div>
-         </div>
-      </header>
 
       <!-- Main Part -->
       <main class="chat">
